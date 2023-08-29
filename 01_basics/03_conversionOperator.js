@@ -12,4 +12,30 @@ let valueInNumber = Number(score);
 let isLoggedIn = 1;
 
 let boolenIsLoggedIn = Boolean(isLoggedIn);
-console.log(boolenIsLoggedIn)
+//console.log(boolenIsLoggedIn)
+
+// Operation
+
+let value = 3;
+let negValue = -value;
+
+//console.log(negValue)
+
+/**
+ * console.log(2+2)
+ * console.log(2-2)
+ * console.log(2*2)
+ * console.log(2/2)
+ * console.log(2**2)
+ * console.log(2%2)
+ */
+
+let str1 = "hello";
+let str2 = "sumedh"
+let str3 = str1 + str2;
+console.log(str3)
+
+let gameCounter = 100;
+//gameCounter++;
+++gameCounter;
+console.log(gameCounter)
