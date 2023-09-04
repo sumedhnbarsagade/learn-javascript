@@ -16,5 +16,27 @@ let isLoggedIn = false;
  * object
  */
 
-console.log(typeof age);
-console.log(typeof undefined);
+// console.log(typeof age);
+// console.log(typeof undefined);
+
+let score = "33";
+
+console.log(typeof score);
+console.log(typeof (score));
+
+let valueInNumber = Number(score);
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false => 0
+
+let isLoggedout = "sumedh"
+
+let booleanIsLoggedIn = Boolean(isLoggedout);
+console.log(booleanIsLoggedIn);
+
+let someNumber = 33;
+let stringNumber = String(someNumber);
+console.log(typeof stringNumber);
