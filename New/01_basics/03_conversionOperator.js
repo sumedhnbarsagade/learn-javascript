@@ -32,3 +32,6 @@ let myNewNumber = 34;
 let stringNumber = String(myNewNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+//*************************************  Operation ************************************************ */
+

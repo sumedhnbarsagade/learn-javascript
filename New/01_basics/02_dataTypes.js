@@ -7,7 +7,7 @@ let name = "Sumedh" // string
 let age = 18 // number
 let isLoggedIn = true //boolean
 
-
+console.log(typeof name);
 // primitive data types--
 // number=> 2 to power of 53
 // bigint => when number is bigger than number data type
@@ -18,6 +18,8 @@ let isLoggedIn = true //boolean
 // symbol => unique
 
 
+
+
 // object
 
-console.log(typeof(null));
+//console.log(typeof(null));
